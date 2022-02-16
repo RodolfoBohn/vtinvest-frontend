@@ -1,0 +1,34 @@
+
+.inputAtivo{
+    background-color: #232327;
+    border-radius: 2px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.inputQtdeAtivo{
+    background-color: #232327;
+    border-radius: 2px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 50%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.btn-add{
+    width: 45%;
+    height: 29px;
+    margin-top: 6px;
+    float: right;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #d64000;
+}
+
+.btn-add:hover{
+    background-color: #c23a00;
+}

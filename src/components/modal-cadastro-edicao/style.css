@@ -1,0 +1,187 @@
+.modal-form-cadastro-acao{
+    display: flex;
+    margin-top: 20px;
+}
+
+.modal-form-cadastro-acao-input {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.box-sugestoes {
+    top: 50px;
+    left:auto;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    background: #dddddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  .disabilita-lista {
+    display: none;
+  }
+
+  .lista-tags {
+    border-radius: 5px;
+    list-style: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .li-sugestao {
+    font-size: 14px;
+    padding: 5px;
+    width: 80px;
+  }
+
+  .li-sugestao:hover {
+    background: #b6b6b6;
+  }
+
+  .pesquisa-acao {
+      position: relative;
+      margin-right: 30px;
+      display: flex;
+      flex-direction: column;
+  }
+
+  @keyframes slide-paraBaixo {
+    from {
+      transform: translateY(-5vh);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+.acoesCarteira{
+
+}
+
+.titile-carteira{
+  text-align: center;
+  color: #00598a;
+  font-size: 24px;
+}
+
+.nomeCarteira{
+  color: #d8d8d8;
+  font-size: 20px;
+}
+
+.subTtitleCarteira{
+  margin-top: 30px;
+  display: flex;
+}
+
+.inputNomeCarteira{
+  margin-left: 5px;
+  background-color: #232327;
+  border-radius: 4px;
+  color: #d8d8d8;
+  height: 30px;
+  flex: 1;
+}
+
+.divisao{
+  margin-top: 35px;
+  color: #d8d8d8;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.ativo{
+  color: #d8d8d8;
+}
+
+.inputAtivo{
+  background-color: #232327;
+  border-radius: 4px;
+  color: #d8d8d8;
+  height: 30px;
+  width: 80px;;
+}
+
+.pesoDesejado{
+  color: #d8d8d8;
+}
+  
+.inputPesoDesejado{
+  background-color: #232327;
+  border-radius: 4px;
+  color: #d8d8d8;
+  height: 30px;
+  width: 121px;;
+}
+
+.quantidadeCarteira{
+  color: #d8d8d8;
+}
+
+.inputQuantidadeCarteira{
+  background-color: #232327;
+  border-radius: 4px;
+  color: #d8d8d8;
+  height: 30px;
+  width: 105px;;  
+}
+
+.addAcao{  
+  margin-top: 23px;
+  padding: 4px 6px 6px;
+  margin-left: 5px;
+  font-size: 17px;
+  border-radius: 2px;
+  height: 27px;
+  color: #fff;
+  background-color: #05c4aa;
+  cursor: pointer;
+}
+
+.addAcao:hover{  
+  background: white;
+  color: #05c4aa;
+  box-shadow: inset 0 0 0 1px #05c4aa;
+}
+
+.limpaCampos{  
+  margin-top: 23px;
+  padding: 4px 6px 6px;
+  margin-left: 5px;
+  font-size: 17px;
+  border-radius: 2px;
+  height: 27px;
+  color: white;
+  background-color: #939399;
+  cursor: pointer;
+}
+
+.limpaCampos:hover{  
+  background: white;
+  color: #939399;
+  box-shadow: inset 0 0 0 1px #939399;
+}
+
+.divbtnSalvaCarteira{
+  float: left;
+  margin-top: 30px;
+}
+
+.btnSalvaCarteira{
+  background-color: #05c4aa;
+  font-size: 18px;
+  margin-top: 15px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btnSalvaCarteira:hover{  
+  background: white;
+  color: #05c4aa;
+  box-shadow: inset 0 0 0 1px #05c4aa;
+}

@@ -1,0 +1,114 @@
+.header-logo-cadastro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.formulario{
+    max-width: 960px;
+    color: #d8d8d8;
+    border-radius: 4px;
+    margin: 5px auto;
+    box-shadow: 0 0 1em #6c757d;
+}
+
+.conteudoForm{
+    max-width: 960px;
+    padding: 10px 30px 30px;
+}
+
+.titulo-cadastro{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cpf{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+    cursor: not-allowed;
+}
+
+.token{
+    background-color: #232327;
+    border-radius: 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+    cursor: not-allowed;
+}
+
+.nome{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+}
+
+.sobrenome{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+}
+
+.login{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+}
+
+.email{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+}
+
+.email2{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+}
+
+.senha{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+}
+
+.senhaconf{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 30px;
+    width: 100%;
+}
+
+.btn-salvar{
+    margin-top: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    color: #fff;
+    background-color: #00598a;
+    padding-left: .75rem !important;
+    padding-right: .75rem !important;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn-salvar:hover{
+    background-color: #004c76;
+}

@@ -1,0 +1,30 @@
+.btnEditar{     
+    font-size: 17px;
+    border-radius: 2px;
+    height: 27px;
+    color: #fff;
+    background-color: #05c4aa;
+    cursor: pointer;
+}
+
+.btnEditar:hover{     
+    background: white;
+    color: #05c4aa;
+    box-shadow: inset 0 0 0 2px #05c4aa;
+}
+
+.btnRemove{
+    margin-left: 15px;
+    font-size: 17px;
+    border-radius: 2px;
+    height: 27px;
+    color: #fff;
+    background-color: #d64000;
+    cursor: pointer;
+}
+
+.btnRemove:hover{
+    background: white;
+    color: #d64000;
+    box-shadow: inset 0 0 0 2px #d64000;
+}

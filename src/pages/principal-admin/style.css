@@ -1,0 +1,68 @@
+.dados-cliente{
+    text-align: center;
+    font-size: 18px;
+    color: #d8d8d8;
+}
+
+.inputDados{
+    background-color: #232327;
+    border-radius: 4px;
+    color: #d8d8d8;
+    height: 30px;
+    flex: 1;
+    margin-top: 8px;
+}
+
+.btn-token{
+    margin-top: 8px;
+    cursor: pointer;
+    font-weight: 900;
+    color: #fff;
+    background-color: #d64000;
+    padding-left: .75rem !important;
+    padding-right: .75rem !important;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 4px;
+}
+
+.btn-token:hover{
+    background-color: #c23a00;
+}
+
+.btn-usuario{
+    background-color: #303038;
+    float: right;
+    display: inline-block;
+}
+
+.dropdown {    
+    background-color: #303038;
+    float: right;
+    display: inline-block;
+}
+
+.dropdown .item {
+    display: none;
+}
+  
+.dropdown:hover .item{
+    display: block;
+}
+
+.btn-logout{
+    cursor: pointer;
+    font-weight: 900;
+    color: #d64000;
+    background-color: #fff;
+    font-size: 13px;
+    line-height: 28px;
+    border-radius: 1px;
+    float: right;
+    width: 100%;
+}
+
+.btn-logout:hover{    
+    color: #fff;
+    background-color: #d64000;
+}

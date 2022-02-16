@@ -1,0 +1,17 @@
+.close-button {
+    font-family: frizquad;
+    background: none;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    border: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+  }
+  

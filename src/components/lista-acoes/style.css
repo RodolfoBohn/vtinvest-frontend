@@ -1,0 +1,57 @@
+.divCarteira{
+    margin-top: 5px;
+    border: 2px solid #232327;
+}
+
+.tableCarteira {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+}
+  
+.tableCarteira td, .tableCarteira th {
+    color: white;
+    padding: 8px;
+}
+  
+.tableCarteira tr:nth-child(even){background-color: #232327;}
+  
+.tableCarteira tr:hover {background-color: rgb(94, 93, 93);}
+  
+.tableCarteira th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    
+    background-color: #232327;
+    color: white;
+}
+  
+.tableCarteira, th, td{
+    border-right: 1px solid #575757;
+}
+
+.textoCarteira{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.quantidadeSugeridaCompra{
+    font-size: 10px;
+}
+
+.quantidadeCompra{
+    font-size: 10px;
+}
+
+.inputCompra{
+    background-color: #232327;
+    border-radius: 4px 4px 4px 4px;
+    color: #d8d8d8;
+    height: 22px;
+    width: 58px;
+    text-align: center;
+    font-size: 17px;
+}

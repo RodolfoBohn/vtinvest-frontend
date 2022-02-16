@@ -1,0 +1,46 @@
+
+.header-usuario{
+    color: #d64000;
+    float: right;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.header-logo{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.principal-lista-carteiras{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;  
+    color: #d64000;
+}
+
+.btn-add-carteira{
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 34px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.btn-add-carteira{
+    background-color: transparent;
+}
+
+.btn-add-carteira:hover{
+    background: white;
+    color: black;
+    box-shadow: inset 0 0 0 3px black;
+}
+
