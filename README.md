@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# VTInvest
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O VTInvest é um projeto desenvolvido pelos colegas Charles Mossmann, Janaína Pires, Pablo Benz e Rodolfo Bohn, visando atender a disciplina de Desenvolvimento de Sistemas do IFRS Campus Feliz, ministrada pelo professor Tiago Cinto.
+Este projeto possui caráter acadêmico, não visando quaisquer lucros sobre a utilização do mesmo.
 
-## Available Scripts
+## O projeto
 
-In the project directory, you can run:
+O projeto visa ser um gerenciador de carteira de investimentos, na qual o usuário, após um pré-cadastro a ser realizado com o perfil analista, pode cadastrar suas carteiras, bem como receber sugestões de aporte de acordo com os percentuais previamente definidos para cada tipo de ação.
+Você pode conhecer um pouco mais sobre a documentação de entregas, histórias do usuário e outros detalhes acessando a [documentação](https://drive.google.com/drive/folders/1wnRfdTOOsfEZTM5kqJdubtFoeOxOzYuW).
 
-### `npm start`
+## Os integrantes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Abaixo segue a lista dos participantes do grupo, bem como seu papel no desenvolvimento.
+Para saber mais sobre cada um, acesse o linkedin:
+- [Charles Mossmann](https://www.linkedin.com/in/charles-mossmann-325025198/) - Desenvolvedor Frontend;
+- [Janaína Pires](https://www.linkedin.com/in/janaina-espindolo-pires-93a37391/) - PO/Analista de Sistemas;
+- [Pablo Benz](https://www.linkedin.com/in/pablo-augusto-bentz-a5a2991a0/) - QA;
+- [Rodolfo Bohn](www.linkedin.com/in/rodolfo-f-539738a5) - Desenvolvedor FullStack
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Quer executar o projeto?
 
-### `npm test`
+Para acessar o executável do projeto, explorando suas funcionalidades, você pode acessar [este link](https://vtinvest.herokuapp.com/). Possuímos dois usuários de teste, um com perfil analista, e outro com perfil usuário.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Perfil analista:
+-- Usuário: admin
+-- Senha: admin123
+- Perfil usuário:
+-- Usuário: usuario
+-- Senha: usuario123
 
-### `npm run build`
+## Quer executar localmente?
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+O Backend do projeto foi criado utilizando React.
+Rode os comandos `npm install` e, na sequência, `npm start` para rodar o projeto, após a instalação do [node JS](https://nodejs.org/en/). Recomendamos a utilização da versão LTS.
